@@ -1,0 +1,17 @@
+/* 
+Botão		    Cor Principal (Hexadecimal)
+Primary         #0d6efd
+Secondary       #6c757d
+Danger          #dc3545
+Warning         #ffc107
+Success         #198754
+Info            #0dcaf0 
+*/
+
+.primary {
+    background-color: #0d6efd;
+}
+
+.secondary {
+    background-color: #6c757d;
+}

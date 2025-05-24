@@ -1,0 +1,27 @@
+img {
+    width: 50px;
+}
+
+/* Seletor de id, ou seja, o elemento que conter o id="filme-lilo-stitch" será aplicado o css abaixo */
+#filme-lilo-stitch {
+    width: 250px;
+}
+
+#filme-rio-2{
+    width: 350px;
+}
+
+
+#filme-lords-of-the-ring{
+    width: 210px;
+}
+
+#filme-invocacao-do-mal{
+    width: 100px;
+}
+
+/* 
+- filme rio 2 terá o tamanho de 350px
+- filme senhor dos aneis terá o tamanho de 210px
+- filme invocação do mal terá o tamanho de 100px
+*/

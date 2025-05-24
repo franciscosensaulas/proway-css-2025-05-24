@@ -1,0 +1,25 @@
+body {
+    background-color: #2d6ada;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+div {
+    background-color: #549754;
+}
+
+a {
+    text-decoration: none;
+    color: #1a4a1a;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+/* Quando o usuário passar o mouse por cima da tag a */
+a:hover{
+    color: #fff;
+}
