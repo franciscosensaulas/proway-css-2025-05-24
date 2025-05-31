@@ -1,0 +1,40 @@
+body{
+    background-color: #9cc2FF;
+}
+
+h1 {
+    /* margem esquerda */
+    /* margin-left: 10px; */
+    margin-top: 40px;
+    /* Centralizar o texto horizontalmente */
+    text-align: center;
+}
+
+img {
+    /* max-width: 300px; */
+    max-height: 300px;
+}
+/* color picker */
+div {
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    /* Alterar a forma que é calculado o width,height para levar em consideração padding, border, margin, ou seja,
+    não ultrapassará o tamanho de 100% do form */
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+}

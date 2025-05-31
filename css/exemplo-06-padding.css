@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: #fff;
+    background-color: #1f1f2e;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.caixa{
+    width: 200px;
+    background-color: #2A2A3B;
+    border: 2px solid #4CAF50;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+span{
+    display: block;
+    background-color: rgba(0,0,0, 0.2);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.pad-left{
+    padding-left: 20px;
+}
+
+.pad-bottom{
+    padding-bottom: 20px;
+}
+
+.pad-right{
+    padding-right: 20px;
+}
+
+.pad-top{
+    padding-top: 20px;
+}
+
+.pad-lados{
+    padding-top: 5px; /* cima */ 
+    padding-right: 15px; /* direita */
+    padding-bottom: 25px; /* base */
+    padding-left: 35px; /* esquerda */
+    padding: 5px  15px  25px 35px; /* cima direita base esquerda */
+}
+
+.pad-20-40{ 
+    /* padding verticais */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding horizontais */
+    padding-right: 40px;
+    padding-left: 40px;
+
+    /* Shorthand */
+    padding: 20px 40px; /* cima/base direita/esquerda */
+}
+
+.pad-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    /* Shorthand */
+    padding: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    padding: 10px;
+}
