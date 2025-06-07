@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Viagens Brasil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Explore os Melhores Destinos do Brasil</h1>
+  </header>
+
+  <main>
+    <section id="pacotes">
+      <h2>Pacotes de Viagem</h2>
+      <div class="pacote" id="pacote1">
+        <h3>Gramado - RS</h3>
+        <p>Pacote para 4 dias com transporte e hospedagem inclusos.</p>
+        <button onclick="mostrarDetalhes('pacote1')">Ver Detalhes</button>
+      </div>
+      <div class="pacote" id="pacote2">
+        <h3>Fernando de Noronha - PE</h3>
+        <p>Pacote para 5 dias com mergulho e passeios inclusos.</p>
+        <button onclick="mostrarDetalhes('pacote2')">Ver Detalhes</button>
+      </div>
+      <!-- Adicione mais pacotes conforme necessário -->
+    </section>
+
+    <section id="pontos-turisticos">
+      <h2>Pontos Turísticos</h2>
+      <ul>
+        <li><button onclick="mostrarPonto('cristo-redentor')">Cristo Redentor - RJ</button></li>
+        <li><button onclick="mostrarPonto('cataratas-iguacu')">Cataratas do Iguaçu - PR</button></li>
+        <li><button onclick="mostrarPonto('pelourinho')">Pelourinho - BA</button></li>
+        <!-- Adicione mais pontos turísticos conforme necessário -->
+      </ul>
+    </section>
+
+    <section id="detalhes">
+      <h2>Detalhes</h2>
+      <div id="detalhes-conteudo"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sistema de Viagens Brasil</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
