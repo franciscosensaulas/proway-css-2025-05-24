@@ -1,55 +1,3 @@
-/* css reset */
-* {
-
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #eef2f5;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Cabeçalho */
-div.header {
-    background-color: #1e90ff;
-    padding: 20px;
-    border-bottom: 1px solid #187bcd;
-}
-
-div.header .logo {
-    font-size: 1.8rem;
-    color: #fff;
-    text-decoration: none;
-}
-
-/* <div class="header">
-        <div class="nav">
-        </div> 
-    </div>
-    */
-div.header .nav {
-    margin-top: 10px;
-}
-
-div.header div.nav a {
-    color: #f0f8ff;
-    margin-right: 15px;
-    text-decoration: none;
-    font-weight: bold;
-    /* negrito */
-    padding: 6px 10px;
-    border-radius: 4px;
-    transition: background-color 0.2s;
-}
-
-div.header div.nav a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-}
-
 div.container {
     max-width: 1000px;
     margin: 0 auto 60px;
@@ -67,11 +15,12 @@ div.container {
     border: 2px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    transition: transform 0.2, box-shadow 0.2s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    /* transform: translateY(-50px); */
+    transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -107,18 +56,4 @@ div.container {
 
 .card-content a:hover {
     background-color: #187bcd;
-}
-
-/* Rodapé */
-div.footer{
-    background-color: #fafafa;
-    padding: 20px;
-    border-top: 1px solid #ddd;
-    text-align: center;
-}
-
-div.footer p{
-    font-size: 0.9rem;
-    color: #666;
-    
 }

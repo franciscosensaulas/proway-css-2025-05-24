@@ -1,0 +1,36 @@
+/* Cabeçalho */
+div.header {
+    background-color: #1e90ff;
+    padding: 20px;
+    border-bottom: 1px solid #187bcd;
+}
+
+div.header .logo {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* <div class="header">
+        <div class="nav">
+        </div> 
+    </div>
+    */
+div.header .nav {
+    margin-top: 10px;
+}
+
+div.header div.nav a {
+    color: #f0f8ff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    /* negrito */
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+div.header div.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

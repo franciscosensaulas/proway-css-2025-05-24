@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/exemplo-09-contato.css">
+    <link rel="stylesheet" href="css/sistema-viagens/shared.css">
+    <link rel="stylesheet" href="css/sistema-viagens/header.css">
+    <link rel="stylesheet" href="css/sistema-viagens/footer.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" class="logo">🌎 Viagem & Aventura</a>
+        <div class="nav">
+            <a href="exemplo-07-pagina.html">Início</a>
+            <a href="exemplo-08-tabela.html">Destinos</a>
+            <a href="#">Pacotes</a>
+            <a href="exemplo-09-contato.html">Contato</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="contato">
+            <h2>Contato</h2>
+            <form action="enviar-dados.php" method="post">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome">
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Seu email">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Como podemos ajudar?"></textarea>
+
+                <button type="submit">
+                    <i class="fa-solid fa-paper-plane"></i> Enviar
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 & Aventura. Todos os direitos reservados.</p>
+    </div>
+    <script src="https://kit.fontawesome.com/3c32900202.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

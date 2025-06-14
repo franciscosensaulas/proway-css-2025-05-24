@@ -1,0 +1,139 @@
+.banner {
+    /* Define a imagem de fundo a ser exibida */
+    background-image: url('https://picsum.photos/id/1018/1200/300');
+
+    /* Centraliza a imagem de fundo no elemento */
+    background-position: center;
+
+    /* Faz com que a imagem cubra todo o elemento, mantendo a proporção */
+    background-size: cover;
+
+    /* Impede que a imagem se repita (nem na horizontal, nem na vertical) */
+    background-repeat: no-repeat;
+
+    /* UUsa o valor padrão, que é scroll, fazendo o fundo rolar com a página */
+    background-attachment: initial;
+
+    /* Usa o valor padrão, que é 'padding-box' a imagem inicia a partir da área de padding */
+    background-origin: initial;
+
+    /* Usa o valor padrão, que é 'border-box', a imagem de fundo se estende até a borda */
+    background-clip: initial;
+
+    background: url('https://picsum.photos/id/1018/1200/300') center/cover no-repeat;
+
+    height: 300px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    
+}
+
+.banner h1{
+    font-size: 2.5rem;
+}
+
+.detalhes{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.detalhe { 
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s;
+}
+
+@keyframes pulse {
+
+       /* Laranja */
+    /* 10%  { background-color: #ff7f00; } */
+       /* Amarelo */
+    /* 20%  { background-color: #ffff00; } */
+    /* Verde limão */
+    /* 30%  { background-color: #7fff00; }    */
+       /* Verde */
+    /* 40%  { background-color: #00ff00; } */
+       /* Azul */
+    /* 60%  { background-color: #0000ff; } */
+       /* Índigo */
+    /* 70%  { background-color: #4b0082; } */
+       /* Violeta */
+    /* 80%  { background-color: #8b00ff; } */
+    /* Rosa choque */
+    /* 90%  { background-color: #ff1493; }    */
+    0% {
+        transform: translateY(0) scale(1);
+        /* Vermelho */
+        /* background-color: #ff0000; */
+    }
+
+    50% {
+        transform: translateY(-5px) scale(1.05);
+        /* Ciano */
+        /* background-color: #00ffff;    */
+    }
+
+    100%{
+        transform: translateY(0) scale(1);
+        /* background-color: #ff0000; */
+    }
+}
+.detalhe:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+
+.opcoes{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    overflow-x: auto;
+}
+
+.opcoes h2{
+    margin-bottom: 15px;
+    color: #1e90ff;
+    text-align: center;
+}
+
+.opcoes table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.opcoes th,
+.opcoes td{
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.opcoes th{
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.opcoes tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+
+.opcoes tr:hover{
+    background-color: #f1f1f1;
+}
